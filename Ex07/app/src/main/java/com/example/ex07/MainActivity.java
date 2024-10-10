@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(MainActivity.this,ChildActivity.class);
                 startActivity(intent1);
+
             }
         });
     }
